@@ -1,5 +1,6 @@
 import ImageRow from './components/ImageRow'
 import HBDPopup from './components/HBDPopup'
+import BackgroundMusic from './components/BackgroundMusic'
 
 const images = [
   "https://files.catbox.moe/xhmkk3.jpg",
@@ -24,13 +25,14 @@ const images = [
 
 function App() {
   return (
-    <>
+    <div className="App">
+      <BackgroundMusic />
       <HBDPopup />
       <ImageRow direction="right" images={images} />
       <ImageRow direction="left" images={images} />
       <ImageRow direction="right" images={images} />
       <ImageRow direction="left" images={images} />
-    </>
+    </div>
   )
 }
 
