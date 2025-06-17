@@ -44,7 +44,7 @@ const ImageRow = ({ direction = 'right', images }) => {
           return isFailed ? (
             <div
               key={index}
-              className="flex items-center justify-center bg-pink-600 text-white font-bold text-sm w-[12.5vw] h-full"
+              className="flex items-center justify-center bg-pink-600 text-white font-bold text-sm aspect-square w-[24vw] sm:w-[12.5vw] h-auto"
             >
               I love you
             </div>
@@ -55,7 +55,7 @@ const ImageRow = ({ direction = 'right', images }) => {
               alt={`Image ${index}`}
               loading="lazy"
               onError={() => handleError(index % images.length)}
-              className="object-cover h-full w-[12.5vw]"
+              className="object-cover aspect-square w-[24vw] sm:w-[12.5vw] h-auto"
             />
           );
         })}
