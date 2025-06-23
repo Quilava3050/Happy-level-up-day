@@ -4,6 +4,7 @@ const PlaylistButton = ({ onSelectSong }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const songs = [
+    { title: "HAPPY LEVELUP DAY", url: "https://files.catbox.moe/bs077o.mp3"},
     { title: "Multo, Cup of Joe", url: "https://files.catbox.moe/5rz3p4.mp3" },
     { title: "Someone to Stay", url: "https://files.catbox.moe/qc3usy.mp3" },
     { title: "Sempurna English Version", url: "https://files.catbox.moe/f1uj7t.mp3" },
@@ -17,8 +18,6 @@ const PlaylistButton = ({ onSelectSong }) => {
     { title: "everything works out in the end, Luke Willies", url: "https://files.catbox.moe/3o33by.mp3" },
     { title: "ours to keep, Kendis", url: "https://files.catbox.moe/4c5c3q.mp3" },
     { title: "message in a bottle, Taylor Swift", url: "https://files.catbox.moe/jp0bfp.mp3" },
-    { title: "KAMI PHONK, Dr.M0B", url: "https://files.catbox.moe/ih8cxl.mp3" },
-    { title: "DEFEATED, Dr.M0b", url: "https://files.catbox.moe/evm9e1.mp3" },
     { title: "Ava, Famy", url: "https://files.catbox.moe/g50rmm.mp3" }
   ];
 
