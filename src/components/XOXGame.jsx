@@ -104,7 +104,7 @@ const XOXGame = ({ onClose }) => {
     } else if (isComputerTurn) {
       return 'Komputer sedang berpikir...';
     } else {
-      return `Giliran: ${isXNext ? ' (Anda)'❤️ : '☠️ (Komputer)'}`;
+      return `Giliran: ${isXNext ? '❤️ (Anda)' : '☠️ (Komputer)'}`;
     }
   };
 
